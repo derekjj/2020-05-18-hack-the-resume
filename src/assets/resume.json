@@ -1,0 +1,165 @@
+{
+  "basics": {
+    "name": "Derek Johnston",
+    "label": "Software Developer",
+    "image": "https://derekjohnston.ca/_nuxt/img/262f5a5.jpg",
+    "email": "Derek@DerekJohnston.ca",
+    "phone": "",
+    "url": "https://DerekJohnston.ca",
+    "summary": "Well organized, creative, and a proven professional software developer.  Experience working on remote and local development.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "region": "Ontario",
+      "countryCode": "Canada"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "DerekJJ",
+        "url": "http://github.com/DerekJJ"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "DerekJJohnston",
+        "url": "https://www.linkedin.com/in/DerekJJohnston"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "E-Data Now!",
+      "position": "Software Developer",
+      "website": "https://EDataNow.com",
+      "startDate": "2018-04-01",
+      "endDate": "2019-09-01",
+      "summary": "Worked as a Software Craftsman for “E-Data Now!” (EDN) product. EDN is a near real time data collection system. The primary use case is inspection and auditing in the automotive industry. Typically a user will perform audits using EDN Client (iOS/Swift/C++) and enter their Time sheet’s using EDN Time (Flutter/Dart). The data is pushed up to a Rails API, where it’s presented to the Web Administrators using a cutting edge Nuxt.js/Vue.js frontend stack. I had the opportunity to write code for the frontend, and backend while assisting with mobile bug fixes. Beyond my developer duties, I maintained test plans and test cases for the entire suite of EDN products. While performing testing duties, I was also mandated to write automated and load tests.",
+      "highlights": [
+        "Web app: In order to meet Canadian accessibility standards, I enhanced accessibility, and developed Cypress tests to verify the requirements were being met. Created Gatling scripts to generate heavy real-world load in order to observe bottlenecks in performance. Lead a blitz to improve application performance averages. Regularly identified slowest API calls using Scout APM. Optimized slowest API calls by adding indexes, reducing n+1 call’s, and migrating to faster serializers.",
+        "S3 Bucket Processing Script: Improved PowerShell CSV script to include identifiable errors and added Pester unit tests to ensure functionality. Conducted teleconference meeting with overseas customer to inform them of the improvement, and to ensure customer satisfaction.",
+        "iOS app: I was instrumental in identifying redundant and duplicate function calls causing unintended behavior.",
+        "Cross Platform Flutter app: I Helped identify bugs in the code base after gaining experience on a personal Flutter application.",
+        "Internship: During a one-month internship I completed Ruby on Rails, Vue.js, and clean code tutorials. Skillfully demonstrated knowledge by improving dashboard functionality by adding rearrangeable / drag and drop capabilities."
+      ]
+    },
+    {
+      "company": "Oiika",
+      "position": "Software Developer",
+      "website": "https://Oiika.com",
+      "startDate": "2017-05-01",
+      "endDate": "2019-03-01",
+      "summary": "Oiika is a platform where passionate tutors and mentors share their knowledge with individuals like yourself.",
+      "highlights": [
+        "Using React, React-Native, Ignite, MongoDB, Stripe, and NodeJS technologies. Integrating google maps and location API's."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Mintbean",
+      "position": "Hackathon Lead",
+      "website": "http://mintbean.io",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Nam mattis vitae eros sed blandit. Morbi rutrum lacinia arcu, ut scelerisque augue suscipit ut.",
+      "highlights": [
+        "Assisting with Hackathons",
+        "Web development for the re-usable platform"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Durham College",
+      "area": "Computer Progreamming Analyst",
+      "studyType": "Advanced Diploma",
+      "startDate": "",
+      "endDate": "2018-05-20",
+      "gpa": "",
+      "courses": ["test"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Honor Roll",
+      "date": "2014-11-01",
+      "awarder": "Durham College",
+      "summary": "There is no spoon."
+    },
+    {
+      "title": "Honor Roll",
+      "date": "2014-11-01",
+      "awarder": "Durham College",
+      "summary": "There is no spoon."
+    },
+    {
+      "title": "Honor Roll",
+      "date": "2014-11-01",
+      "awarder": "Durham College",
+      "summary": "There is no spoon."
+    }
+  ],
+  "publications": [
+    {
+      "name": "",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "website": "http://publication.com",
+      "summary": "Nam mattis vitae eros sed blandit. Morbi rutrum lacinia arcu, ut scelerisque augue suscipit ut. Suspendisse felis quam, luctus a est ac, dictum dapibus nisl. Morbi risus erat, condimentum non est sed, interdum commodo velit. Nullam purus leo, feugiat at nulla vitae, pretium congue quam. Phasellus varius congue est sed varius. Integer posuere ligula hendrerit mi bibendum, nec hendrerit nibh interdum. Vestibulum pellentesque arcu vel mollis ornare. Fusce convallis erat purus, sed suscipit arcu iaculis sed. Phasellus feugiat sit amet velit id tristique. Quisque sit amet neque sed ligula efficitur lacinia id et massa. Vestibulum vestibulum blandit metus pulvinar pellentesque."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": [
+        "Ferrets",
+        "Unicorns"
+      ]
+    },
+    {
+      "name": "Board games",
+      "keywords": [
+        "Risk",
+        "Catan"
+      ]
+    },
+    {
+      "name": "Board games",
+      "keywords": [
+        "Risk",
+        "Catan"
+      ]
+    },
+    {
+      "name": "Board games",
+      "keywords": [
+        "Risk",
+        "Catan"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference..."
+    }
+  ]
+}

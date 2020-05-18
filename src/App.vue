@@ -1,28 +1,34 @@
-<template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<template lang="pug">
+  .container-flex
+    .row.m-0
+      .col-12.text-center
+        b-button(variant="info" @click="toggleMode") Toggle Mode
+    .row.m-0(v-if="!print")
+      .col-lg-4.vh-100(style="overflow-y:scroll;")
+        Edit
+      .col-lg-8.vh-100(style="overflow-y:scroll;")
+        Resume
+    .row.m-0(v-else)
+      .col
+        Resume
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Edit from "./components/Edit.vue";
+import Resume from "./components/Resume.vue";
 export default {
-  name: 'App',
   components: {
-    HelloWorld
+    Edit,
+    Resume
+  },
+  data() {
+    return {
+      print: false,
+    }
+  },
+  methods: {
+    toggleMode(){
+      this.print = !this.print
+    }
   }
-}
+};
 </script>
-
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
