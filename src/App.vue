@@ -4,9 +4,9 @@
       .col-12.text-center
         b-button(variant="info" @click="toggleMode") Toggle Mode
     .row.m-0(v-if="!print")
-      .col-lg-4.vh-100(style="overflow-y:scroll;")
+      .col-4.vh-100(style="overflow-y:scroll;")
         Edit
-      .col-lg-8.vh-100(style="overflow-y:scroll;")
+      .col-8.vh-100(style="overflow-y:scroll;")
         Resume
     .row.m-0(v-else)
       .col
